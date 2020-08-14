@@ -1,0 +1,31 @@
+body{margin-left:0px;padding:0px}
+
+.a {background-color: #008080;padding: 20px;width: 100%;position: fixed;margin-top: -10px} /*********first div******/
+.one_a{border:2px groove black ;background-color: #20b2aa;padding: 10px;max-width: 35px ;display:inline;}
+.one_a a{text-decoration: none;color: black;}
+.two_a{display:inline ;float:right;color:black;margin-right: 20px;margin-left: 20px}
+.two_a a{text-decoration: none;color: black}
+a:hover{text-decoration: underline;}
+
+
+/*************second div**********/
+
+.b{width:100% ;height: 1200px;}/*************big div**********/
+.one_b{width:20% ;border:4px double black;text-align: center;padding:20px;margin-top:60px;margin-left:90px;display: inline-block;}/*****all the dives********/
+.y{display: none;text-align: center;font-weight: bold;}
+.one_b:hover >p{display: flex;}
+
+
+/**************third div*********/
+
+.c{width:80%;background-image:url("image4.jpg");background-attachment:fixed;background-repeat: no-repeat;
+background-size: 100% 100%;padding:200px 60px;margin:100px auto;}
+.one_c{background-color:black; color:white ; padding: 20px;text-align: center;text-transform:uppercase}
+
+
+/**************fourth div*********/
+
+.d{background-image:url("img5.jpg");background-attachment:fixed; background-repeat: no-repeat;
+background-size: 100%100%;padding:200px 90px;margin:50px auto;}
+.one_d{background-color: rgba(255, 0, 0, 0.5);padding: 20px;margin-top: 5px;direction: rtl;}
+.two_d{background-color: rgba(120,0,200,0.5);padding: 20px}
