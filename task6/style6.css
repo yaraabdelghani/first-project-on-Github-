@@ -1,0 +1,38 @@
+
+body {margin:0px;background-image:url("img.jpg");background-repeat: no-repeat;background-size: 100%;background-attachment: fixed;}
+
+/**********************************************************************/
+.x{background-color: black;height: 20px;padding: 30px;width:100%;position:fixed;margin-top: -100px}
+.one_x{color:black;border:2px solid white ;text-align:center;background-color: white;padding: 10px;display: inline;}
+.one_x a{text-decoration: none;color: black;}
+.two_x{float: right;background-color: white;padding:10px;margin-top:-10px;margin-right: 50px;text-align: center;right: 50px}
+.two_x a{text-decoration: none;color: black;}
+a:hover{text-decoration: underline;color: red}
+
+/*********************************************************************/
+
+h1{background-color:rgba(171,160,160,0.3);width: 20%;border: 2px solid black;text-align: center;padding: 10px;margin-left: 520px;margin-top: 100px}
+.day{text-indent: 30px ;border: 2px solid black;max-width: 150px;padding:10px;float: right;text-indent: 20px;margin-right: 30px;background-color:rgba(171,160,160,0.3)}
+
+/********************************************************************/
+.a{height:500;padding:20px 40px;margin-top: 100px}
+.one_a{background-color: white;width:30%;height:260px;border:3px solid black;margin:10px ;text-align: center;overflow: hidden;padding-top: 5px;font-weight: bold;display: inline-block;}
+.one_a:hover{width:33%;height:320px;background:black;color: white;transition-duration: 2s}
+
+/*********************************************************************/
+.z{text-indent: 30px ;border: 2px solid black;max-width: 150px;padding:10px;float: right;text-indent: 20px;margin-right: 30px;margin-bottom: 10px;background-color:rgba(171,160,160,0.3)}
+.one_b{background-color: white;width:30%;height:260px;border:3px solid black;margin:20px 200px;text-align: center;overflow: hidden;padding-top: 5px;font-weight: bold;}
+.one_b:hover{width:33%;height:320px;background:black;color: white;transition-duration: 2s}
+
+/**********************************************************************/
+.empty{padding: 40px}
+.c{width: 50px}
+#two{border: 2px solid black;padding:10px;background-color:rgba(171,160,160,0.3);width: 80px;margin-left: 1100px}
+fieldset{background-color: white;text-align: center;width: 30px;margin-left: 250px}
+label{font-size: 20px}
+.one_c{background-color: r;width: 300px}
+.two_c{display: block;width:100px;height: 50px;margin-top:  20px;margin-left: 300px;}
+/**************************************************************************/
+.v{width: 50% ;height:20%;border: 5px solid black;margin-top: 50px;margin-left: 300px;background-color: rgba(139,43,35,0.5)}
+.one_v{text-align: center;}
+.two_v{text-align: center;}
