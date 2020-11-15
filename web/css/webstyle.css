@@ -1,0 +1,234 @@
+body{background-color: black;margin: 0px;padding: 0px}
+/****************************************************************/
+nav{
+  background-color:rgb(145 152 175 / 50%);
+  width: 100%;
+  height: 30px;
+  position: fixed;
+  padding: 15px;
+
+}
+a{
+  text-decoration: none;
+  color:black;
+  font-size: 30px;
+  font-style: italic;
+  padding:23px;
+
+}
+/*******************************************************************/
+figure{
+  margin: 0px;
+  padding: 0px;
+  background-image: url("../img1.jpeg");
+  background-size: 100%;
+  height: 650px;
+  width: 100%;
+  background-attachment: fixed;
+}
+h2,h1{
+  position: relative;
+  top:270px;
+  margin-left: 330px;
+  font-size: 50px
+}
+h1{
+  top:250;
+  margin-left: 550px;
+}
+/*******************************************************************/
+section{
+  width: 100%;
+  height: 600px;
+  background-image: url("../img2.jpeg");
+  margin-top: 10px;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.card1{
+  width: 300px;
+  height: 350px;
+  position: absolute;
+  left:40%;
+  top:100px;
+  transform-style: preserve-3d;
+  transition: 2s
+}
+.front,.back{
+  width: 300px;
+  height: 350px;
+  position: absolute;
+
+}
+.front{
+  z-index: 2;
+  background-color:#926416;
+  color:white;
+}
+.back{
+  background-color: gray;
+  transform: rotateY(180deg);
+  color:white;
+}
+.card1:hover{
+   transform: rotateY(180deg);
+}
+.text_card{
+  font-size: 30px;
+  font-style: italic;
+  margin:100px 40px
+}
+/******** end style the card ************/
+/********** start animation1 ***********/
+.car{
+  width: 100;
+  height: 100px;
+  position: relative;
+  margin: 50 auto;
+}
+.car span {
+  width: 10px;
+  height:15px;
+  background-color: black;
+  display: block;
+  position: absolute;
+  animation: two 1s infinite ease ;
+}
+.car .z{
+animation-delay: .2s;
+}
+.car .x{
+  left:11px;
+  animation-delay: .3s;
+}
+.car .y{
+  left:22px;
+  animation-delay: .4s;
+}
+.car .q{
+  left:33px;
+  animation-delay: .5s;
+}
+.car .w{
+  left:44px;
+  animation-delay: .6s;
+}
+@keyframes two {
+  0%{
+    height: 15px;
+    transform: scaley(1);
+  }
+  25%{
+    height: 20px;
+    transform: scaley(2);
+  }
+  50%{
+    height: 25px;
+    transform: scaley(3);
+  }
+  75%{
+    height: 30px;
+    transform: scaley(2);
+  }
+  100%{
+    height: 35px;
+    transform: scaley(1);
+  }
+}
+/********end animation 1***************/
+/**********start animation2***********/
+.card{
+  width: 200;
+  height: 100px;
+  position: relative;
+  margin: 50 auto;
+}
+.card span{
+  display: block;
+  position: absolute;
+  background: red;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  opacity: 0.5;
+  animation: new 1.5s infinite ease-in-out;
+
+}
+.card .a{
+  left:11px;
+  animation-delay: .2s;
+}
+.card .b{
+  left:30px;
+  animation-delay: .4s;
+}
+.card .c{
+  left:49px;
+  animation-delay: .6s;
+}
+.card .d{
+  left:68px;
+  animation-delay: .8s;
+}
+.card .e{
+  left:87px;
+  animation-delay: .9s;
+}
+
+@keyframes new {
+  0%{
+     opacity: 0.3;
+     top:10px;
+  }
+   50%{
+      opacity: 1;
+      top:10px
+   }
+   100%{
+        opacity: 0.3;
+
+   }
+}
+/*********end animation2***********/
+.column{
+  width: 100%;
+  height: 400px;
+  background-color: #eee;
+  padding-top: 50px;
+  margin-top: 20px
+}
+.column1{
+  resize: both;
+  width:200px;
+  height: 200px;
+  background-color:#332456;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 2px double black;
+  position: absolute;
+  left:10px;
+  column-gap:10px ;
+  column-count: 3
+}
+/*********************************************************/
+::selection{
+  background-color: pink;
+}
+/********************************************************/
+footer{
+  background-color: black;
+  width: 90%;
+  height: 100px;
+  border-radius: 20px;
+  border: 5px solid white;
+  margin-top: 10px;
+  margin-left: 40px
+}
+.text_footer{
+  color:white;
+  font-size: 30px;
+  position: absolute;
+  left: 600px
+}
