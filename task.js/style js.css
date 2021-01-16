@@ -1,0 +1,116 @@
+body{margin: 0px;padding: 0px;background-color: black}
+
+header{
+  width: 100%;
+  height:20px;
+  background-color: #8bb0c1;
+  margin: 0px;
+  padding: 20px 0px;
+}
+.a{
+  margin-left: 650px;
+  display: inline;
+}
+a{
+  margin-left: 50px;
+  color:black;
+}
+.one_a{
+  top: 0px;
+  padding: 0px 40px;
+  display: inline;
+  font-size:20px;
+  font-style: italic;
+  font-weight: bold;
+}
+/***************************************************************************************/
+.b{
+  width: 500px;
+  height: 200px;
+  background-color: #eee;
+  margin: 40px 400px;
+
+}
+label{
+  margin-left: 200px
+}
+input{margin-left: 170px}
+button{
+  width: 50px;
+  height: 20px;
+  margin: 10px 0 10px 220px;
+}
+/******************************************************************************/
+.d{
+  width: 500px;
+  height: 150px;
+  background-color: #eee;
+  margin: 40px 400px;
+}
+.one_d{
+  width: 100px;
+  height: 50px;
+  margin-left: 200px;
+  color: black
+}
+.id{
+  width: 50px;
+  height: 20px;
+  border: 2px solid black;
+  border-radius: 2px;
+  margin-left: 220px;
+  padding-left: 5px
+}
+.two_d{
+  width: 100px;
+  height: 40px;
+  border: 2px solid pink;
+  border-radius: 2px;
+  margin-left: 200px;
+  padding-left: 10px
+}
+/**********************************************************************************/
+.ya{
+  width: 450px;
+height: 100px;
+background-color: #eee;
+margin: 40px 400px;
+padding-left: 50px;
+padding-top: 10px
+}
+#str{
+  margin-top: 10px;
+  margin-left: 5px;
+}
+#pstr{
+  display: inline;
+}
+/**********************************************************************************/
+.l{
+  width: 500px;
+  height: 250px;
+  background-color: #eee;
+  margin: 40px 400px;
+}
+#arr{
+  margin-top: 20px;
+}
+.classarr{
+  margin-left: 80px;
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 20px;
+  overflow: hidden;
+}
+#makearr{
+  width: 65px;
+  height: 35px;
+  border: 1px double black;
+}
+#chdiv{
+ width: 500px;
+ height: 132px;
+ margin-left: 180px;
+ font-size: 15px;
+ font-weight: bold;
+}
