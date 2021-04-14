@@ -1,0 +1,21 @@
+.navbar-light .navbar-brand{
+  color:red;
+}
+.navbar-light .navbar-nav .nav-link{
+  color:black
+}
+.accordion{
+  margin-top: 10px;
+  margin-bottom: 50px
+}
+.container{
+  margin-bottom: 20px
+}
+section{
+  background-color:black;
+  color:#9a8e8e;
+  padding:50px
+}
+.progress{
+  margin-top: 7px;
+  height: 30px
