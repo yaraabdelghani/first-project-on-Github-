@@ -1,0 +1,83 @@
+body{
+  background-image: url("../image/img4.jpg");
+}
+/**************************************************************************/
+.navbar-light .navbar-brand{
+  margin-left: 60px;
+  margin-right: 60px;
+  color:white;
+  font-weight: bold;
+}
+.navbar-light .navbar-brand span{
+  color:black;
+  font-size: 30px;
+  margin-left: 5px
+}
+.navbar-collapse{
+  margin-left: 800px
+}
+
+.bg-light
+{
+  background-color: rgb(46 46 103 / 50%) !important
+}
+.navbar-light .navbar-nav .nav-link{
+  color: white
+}
+/*******************************end nav*******************************/
+#test1,#test2,#test3{
+  font-size: 30px;
+  margin-top: 60px;
+  padding: 20px;
+  background:rgb(18 21 36 / 20%);
+  border-radius: 50px;
+  border: 2px solid  #fff;
+  width: 550px;
+  height: 250px
+}
+input{
+  margin-left: 30px;
+  height:35px;
+  width: 200px;
+}
+label{
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  color: #fff
+}
+button{
+  margin-left: 97px;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px
+}
+#output,#output2{
+
+  border: 2px solid black;
+  width:200px;
+  display: inline-block;
+  margin-left: 40px;
+  color: white
+}
+#num2{
+  margin-left: 71px
+}
+#num3{
+  margin-left: 78px
+}
+/********************************end test1****************************************/
+#houses{
+  margin-left: 30px
+}
+#test2{
+  height: 300px;
+  margin-left: 750px
+}
+/********************************************end test2*******************************/
+#test3{
+  margin-top: 0px;
+  color: white;
+
+}
